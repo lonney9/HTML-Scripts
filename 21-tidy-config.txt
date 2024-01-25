@@ -1,0 +1,9 @@
+indent: auto
+indent-spaces: 2
+wrap: 0
+// clean: yes
+output-encoding: ascii
+quiet: yes
+show-warnings: no
+show-errors: 1
+tidy-mark: no
