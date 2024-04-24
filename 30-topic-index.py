@@ -48,7 +48,7 @@ def generate_topics_index(directory):
     sorted_topics = sorted(index.keys())
 
     with open(os.path.join(directory, 'topics.html'), 'w') as index_file:
-        index_file.write('<!DOCTYPE html>\n<html lang="en">\n<head>\n <meta charset="UTF-8">\n <meta name="description" content="Cebik Website Topic Index">\n <title>Cebik Website Topic Index</title>\n <link rel="stylesheet" href="styles.css">\n</head>\n<body>\n')
+        index_file.write('<!DOCTYPE html>\n<html lang="en">\n<head>\n <meta charset="UTF-8">\n <meta name="description" content="Cebik Website Topic Index">\n <meta name="generator" content="https://github.com/lonney9/HTML-Scripts/blob/main/30-topic-index.py">\n <title>Cebik Website Topic Index</title>\n <link rel="stylesheet" href="styles.css">\n</head>\n<body>\n')
 
         # Write page header
         index_file.write(' <h1 style="text-align: center; font-size: 2em;">Topic Index</h1>\n <img src="images/colorbar.gif" alt="hr" style="display: block; margin: auto;" width="540" height="4">\n')
