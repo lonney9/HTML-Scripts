@@ -25,7 +25,7 @@ sitemap_file="$top_level_directory/sitemap.xml"
 
 # Create or overwrite the sitemap.xml file
 echo '<?xml version="1.0" encoding="UTF-8"?>' > "$sitemap_file"
-echo '<!-- sitemap-generator-url='https://github.com/lonney9/HTML-Scripts/blob/main/50-sitemap.sh' -->' >> "$sitemap_file"
+echo '<!-- sitemap-generator-url="https://github.com/lonney9/HTML-Scripts/blob/main/50-sitemap.sh" -->' >> "$sitemap_file"
 echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> "$sitemap_file"
 
 # Find all HTML files in the specified directory and subdirectories
