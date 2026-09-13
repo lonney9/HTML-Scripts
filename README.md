@@ -2,9 +2,9 @@
 
 These scripts were used to tidy and make the Cebik pages HTML compliant with styling set by one CSS file.
 
-The finished result is hosted at [www.antenna2.net/cebik](https://www.antenna2.net/cebik/).
+The finished result is hosted at [https://antenna2.github.io/cebik/](https://antenna2.github.io/cebik/).
 
-The pages were sourced from [www.on5au.be/Cebik%20documents.html](http://www.on5au.be/Cebik%20documents.html). The "Cebik Style" version was used as the starting point, in addition to the scripts a number of manual edits were made where HTML formatting issues tripped up [HTML Tidy](https://www.html-tidy.org/), it doesn't magically handle every possible syntax situation correctly.
+The pages were sourced from [www.on5au.be/Cebik%20documents.html](https://web.archive.org/web/20240716050411/http://on5au.be/) (No longer online, linked to Internet Archive copy). The "Cebik Style" version was used as the starting point, in addition to the scripts a number of manual edits were made where HTML formatting issues tripped up [HTML Tidy](https://www.html-tidy.org/), it doesn't magically handle every possible syntax situation correctly.
 
 In addition to cleaning up the HTML, a pair of scripts were used to generate a linked topics footer and a topics index page based on meta keywords and the page title names.
 
